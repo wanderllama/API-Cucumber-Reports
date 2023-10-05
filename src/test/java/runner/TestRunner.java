@@ -14,11 +14,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				"utils.MyTestListener"
 		}
 		,features= {"src/test/resources/features"}
-		,glue = {"stepDefinition"}
+		,glue = {"stepDefinitions"}
 		//,dryRun = true
 		,monochrome = true
 		,snippets = SnippetType.CAMELCASE
-		,tags = ""
+		,tags = "@j"
 		//,publish = true
 		)
 public class TestRunner {
